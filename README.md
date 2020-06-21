@@ -3,7 +3,11 @@
 My attempt to create openai gym based environments.
 **Note**: this environment was created to solve the final assignment of TSAI EVA1 program. [theschoolofai.in](https://theschoolof.ai/)
 
+**Twin Delayed DDPG (T3D):** Implementation should look something like this and can be found in the `example` directory.
 
+Here `surr` shows the vision state of the car; and `LIDAR` is just the **representation** of the final 5x5 embeddings, not the output of CNN.
+
+[![Watch the video](https://img.youtube.com/vi/f_-1LgeG8FM/hqdefault.jpg)](https://www.youtube.com/watch?v=f_-1LgeG8FM)
 
 `gym_dabbewala/envs/dabbewala_env.py` : is the environment, can be modified if wished.
 
